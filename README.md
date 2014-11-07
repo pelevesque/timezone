@@ -13,7 +13,7 @@ Timezone is a helper for creating a timezone picker dropdown menu.
 
     // Get the pure list, $timezone_identifier => $display
     // Then create the menu how you like.
-    foreach ($timezone::getList() as $timezone_identifier => $display) {
+    foreach ($timezone::get_list() as $timezone_identifier => $display) {
         echo '<option value="' . $timezone_identifier . '">' . $display . '</option>';
     }
 
