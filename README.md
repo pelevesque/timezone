@@ -4,20 +4,24 @@
 
 Timezone is a helper for creating a timezone picker dropdown menu.
 
-### Loading
+## Loading
 
-    include('Timezone.php');
-    $timezone = new Pel\Helper\Timezone;
+```php
+include('Timezone.php');
+$timezone = new Pel\Helper\Timezone;
+```
 
-### Usage
+## Usage
 
-    // Get the pure list, $timezone_identifier => $display
-    // Then create the menu how you like.
-    foreach ($timezone::get_list() as $timezone_identifier => $display) {
-        echo '<option value="' . $timezone_identifier . '">' . $display . '</option>';
-    }
+```php
+// Get the pure list, $timezone_identifier => $display
+// Then create the menu how you like.
+foreach ($timezone::get_list() as $timezone_identifier => $display) {
+    echo '<option value="' . $timezone_identifier . '">' . $display . '</option>';
+}
 
-    // OR
+// OR
 
-    // Echo the menu directly.
-    echo $timezone::get_menu();
+// Echo the menu directly.
+echo $timezone::get_menu();
+```
