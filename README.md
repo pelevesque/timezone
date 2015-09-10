@@ -2,7 +2,7 @@
 
 ## About
 
-Timezone is a helper for creating a timezone picker dropdown menu.
+Timezone is a PSR-4 PHP class for creating a timezone picker dropdown menu.
 
 ## Loading
 
@@ -16,12 +16,12 @@ $timezone = new Pel\Helper\Timezone;
 ```php
 // Get the pure list, $timezone_identifier => $display
 // Then create the menu how you like.
-foreach ($timezone::get_list() as $timezone_identifier => $display) {
+foreach ($timezone::getList() as $timezone_identifier => $display) {
     echo '<option value="' . $timezone_identifier . '">' . $display . '</option>';
 }
 
 // OR
 
 // Echo the menu directly.
-echo $timezone::get_menu();
+echo $timezone::getMenu();
 ```
