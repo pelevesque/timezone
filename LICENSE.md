@@ -1,6 +1,6 @@
 # License
 
-Timezone uses the MIT open source license.
+timezone uses the MIT open source license.
 
 ## MIT License (MIT)
 

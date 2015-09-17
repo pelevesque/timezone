@@ -1,8 +1,8 @@
-#Timezone
+#timezone
 
 ## About
 
-Timezone is a PSR-4 PHP class for creating a timezone picker dropdown menu.
+A PSR-4 PHP class for creating a timezone picker dropdown menu.
 
 ## Loading
 

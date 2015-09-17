@@ -1,6 +1,6 @@
 <?php
 /**
- * Timezone - A PSR-4 PHP class that simplifies timezone picking.
+ * A PSR-4 PHP class that simplifies timezone picking.
  *
  * @author      Pierre-Emmanuel Lévesque
  * @email       pierre.e.levesque@gmail.com
