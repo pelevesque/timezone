@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/pelevesque/timezone.svg?branch=master)](https://travis-ci.org/pelevesque/timezone)
+
 # timezone
 
 ## About
